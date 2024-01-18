@@ -1,0 +1,20 @@
+package classe;
+
+import java.util.Objects;
+
+public class Usuario {
+
+	String nome;
+	String email;
+	
+	public boolean equals(Object objeto) {
+		if (objeto instanceof Usuario) {
+		Usuario outro = (Usuario) objeto;
+		
+		boolean nomeIgual =
+		boolean emailIgual =
+		return Objects.equals(email, other.email) && Objects.equals(nome, other.nome);
+	}
+}
+
+	

@@ -1,0 +1,15 @@
+package arrays;
+
+import java.util.Scanner;
+
+public class Desafio {
+	Scanner entrada = new Scanner(System.in);
+	System.out.print("Quantas notas: ");
+	int qtdeNotas = entrada.nextInt();
+	
+	double[] notas = new double[qtdeNotas];
+	
+	
+	entrada.close();
+
+}

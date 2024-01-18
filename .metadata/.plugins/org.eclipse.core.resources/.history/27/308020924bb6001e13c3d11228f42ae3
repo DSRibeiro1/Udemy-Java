@@ -1,0 +1,12 @@
+package classe;
+
+public class Usuario {
+
+	public static void main(String[] args) {
+		String nome;
+		String email;
+
+
+	}
+
+}
