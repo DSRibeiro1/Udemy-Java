@@ -1,0 +1,16 @@
+package colecoes;
+
+import java.util.SortedSet;
+import java.util.TreeSet;
+
+public class ConjuntoComportado {
+
+	public static void main(String[] args) {
+		//Set<String> listaAprovado = new HashSet<>();
+		SortedSet<String> listaAprovado = new TreeSet<>();
+		
+		
+
+	}
+
+}

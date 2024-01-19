@@ -1,0 +1,28 @@
+package colecoes;
+
+import java.util.HashSet;
+
+public class ConjuntoBaguncado {
+
+	public static void main(String[] args) {
+		HashSet conjunto = new HashSet();
+		
+		conjunto.add(1.2); // double --> Double
+		conjunto.add(true); // boolean --> Boolean
+		conjunto.add("Teste"); // string --> String
+		conjunto.add(1); // int --> Integer
+		conjunto.add('x'); // char --> Char
+		
+		System.out.println("Tamanho é "+conjunto.size());
+		
+		conjunto.add("Teste"); // string --> String
+		conjunto.add('x'); // int --> Integer
+		
+		System.out.println("Tamanho é "+conjunto.size());
+
+		
+		
+
+	}
+
+}
