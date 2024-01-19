@@ -11,8 +11,7 @@ public class Hash {
 		usuarios.add(new Usuario("maria"));
 		usuarios.add(new Usuario("jose"));
 		
-		boolean resultado = usuarios.contains(new Usuario("joao"));
-		System.out.println(resultado);
+		
 
 	}
 
