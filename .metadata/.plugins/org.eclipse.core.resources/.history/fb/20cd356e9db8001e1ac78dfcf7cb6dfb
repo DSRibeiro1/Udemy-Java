@@ -1,0 +1,17 @@
+package oo.composicao;
+
+public class CursoTeste {
+
+	public static void main(String[] args) {
+		Aluno aluno1 = new Aluno ("Mario");
+		Aluno aluno2 = new Aluno ("Maria");
+		Aluno aluno3 = new Aluno ("Ana");
+		
+		Curso curso1 = new Curso ("MTM");
+		Curso curso2 = new Curso ("Quimica");
+		Curso curso3 = new Curso ("Geo");
+
+
+	}
+
+}
