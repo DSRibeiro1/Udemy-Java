@@ -1,0 +1,9 @@
+package lambdas;
+
+public class Calculo {
+
+	public Calculo() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,9 @@
+package oo.abstrato;
+
+public class Cachorro extend Animal {
+
+	public Cachorro() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

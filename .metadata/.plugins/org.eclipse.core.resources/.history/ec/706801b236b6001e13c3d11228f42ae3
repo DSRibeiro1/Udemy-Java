@@ -1,8 +1,0 @@
-package arrays;
-
-import java.util.Scanner;
-
-public class Desafio {
-	Scanner entrada = new Scanner(System.in);
-
-}
