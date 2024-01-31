@@ -1,0 +1,28 @@
+package lambdas;
+
+import java.util.function.Function;
+import java.util.function.UnaryOperator;
+
+public class Desafio {
+
+	public static void main(String[] args) {
+		Produto p = new Produto ("ipad",1232.12,0.15);
+		
+		Function<Produto, Double> precoFinal;
+		UnaryOperator<Double> impostoMunicipal;
+		UnaryOperator<Double> frete;
+		UnaryOperator<Double> arredondar;
+		Function<Double, String> formatar;
+		
+		String preco = precoFinal
+				.andThen(impostoMunicipal)
+				.andThen(frete)
+				.andThen(arredondar)
+				.andThen(formatar)
+				.apply(preco);
+		
+		
+
+	}
+
+}

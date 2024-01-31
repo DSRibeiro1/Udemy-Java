@@ -1,9 +1,0 @@
-package oo.abstrato;
-
-public class Mamifero {
-
-	public Mamifero() {
-		// TODO Auto-generated constructor stub
-	}
-
-}

@@ -1,0 +1,10 @@
+package lambdas;
+
+public class Desafio {
+
+	public static void main(String[] args) {
+		Produto p = new Produto ("ipad",1232.12,0.15);
+
+	}
+
+}
